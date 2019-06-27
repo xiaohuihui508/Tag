@@ -15,6 +15,31 @@
 		663E527522C22C4D0050323F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E527422C22C4D0050323F /* main.m */; };
 		663E527F22C22C4D0050323F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E527E22C22C4D0050323F /* DemoTests.m */; };
 		663E528A22C22C4D0050323F /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E528922C22C4D0050323F /* DemoUITests.m */; };
+		663E52DF22C22CE40050323F /* UITableView+WWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E529C22C22CE30050323F /* UITableView+WWExtension.m */; };
+		663E52E022C22CE40050323F /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E529D22C22CE30050323F /* RootTableViewController.m */; };
+		663E52E122C22CE40050323F /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663E529E22C22CE30050323F /* menu.plist */; };
+		663E52E222C22CE40050323F /* TagViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52A622C22CE40050323F /* TagViewModel.m */; };
+		663E52E322C22CE40050323F /* TagViewStyle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663E52A722C22CE40050323F /* TagViewStyle.plist */; };
+		663E52E422C22CE40050323F /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52A822C22CE40050323F /* TagModel.m */; };
+		663E52E522C22CE40050323F /* TagBuilderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663E52AA22C22CE40050323F /* TagBuilderView.xib */; };
+		663E52E622C22CE40050323F /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52AC22C22CE40050323F /* TagView.m */; };
+		663E52E722C22CE40050323F /* MarkedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52AE22C22CE40050323F /* MarkedImageView.m */; };
+		663E52E822C22CE40050323F /* TagBuilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52B022C22CE40050323F /* TagBuilderView.m */; };
+		663E52E922C22CE40050323F /* TaggedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52B122C22CE40050323F /* TaggedImageViewController.m */; };
+		663E52EA22C22CE40050323F /* LumberjackDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52B422C22CE40050323F /* LumberjackDemoViewController.m */; };
+		663E52EB22C22CE40050323F /* NSDictionary+WWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52B822C22CE40050323F /* NSDictionary+WWExtension.m */; };
+		663E52EC22C22CE40050323F /* NSString+WWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52B922C22CE40050323F /* NSString+WWExtension.m */; };
+		663E52ED22C22CE40050323F /* NSArray+WWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52BA22C22CE40050323F /* NSArray+WWExtension.m */; };
+		663E52EE22C22CE40050323F /* UIView+WWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52C122C22CE40050323F /* UIView+WWView.m */; };
+		663E52EF22C22CE40050323F /* WWBaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52C622C22CE40050323F /* WWBaseAppDelegate.m */; };
+		663E52F022C22CE40050323F /* WWRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663E52C922C22CE40050323F /* WWRouter.plist */; };
+		663E52F122C22CE40050323F /* WWRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52CB22C22CE40050323F /* WWRouter.m */; };
+		663E52F222C22CE40050323F /* WWBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52CF22C22CE40050323F /* WWBaseNavigationController.m */; };
+		663E52F322C22CE40050323F /* WWBaseTabBarConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663E52D222C22CE40050323F /* WWBaseTabBarConfiguration.plist */; };
+		663E52F422C22CE40050323F /* WWBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52D322C22CE40050323F /* WWBaseTabBarController.m */; };
+		663E52F522C22CE40050323F /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52D522C22CE40050323F /* WWBaseViewController.m */; };
+		663E52F622C22CE40050323F /* WWPrivacyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 663E52D922C22CE40050323F /* WWPrivacyHelper.m */; };
+		66DDD56F22C2FF6E00764F00 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDD56E22C2FF6E00764F00 /* FXBlurView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +76,60 @@
 		663E528522C22C4D0050323F /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663E528922C22C4D0050323F /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		663E528B22C22C4D0050323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663E529722C22C5D0050323F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		663E529A22C22CE30050323F /* UITableView+WWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWExtension.h"; sourceTree = "<group>"; };
+		663E529B22C22CE30050323F /* WWFoldable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFoldable.h; sourceTree = "<group>"; };
+		663E529C22C22CE30050323F /* UITableView+WWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWExtension.m"; sourceTree = "<group>"; };
+		663E529D22C22CE30050323F /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		663E529E22C22CE30050323F /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		663E529F22C22CE30050323F /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		663E52A222C22CE40050323F /* TaggedImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaggedImageViewController.h; sourceTree = "<group>"; };
+		663E52A422C22CE40050323F /* TagViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewModel.h; sourceTree = "<group>"; };
+		663E52A522C22CE40050323F /* TagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
+		663E52A622C22CE40050323F /* TagViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewModel.m; sourceTree = "<group>"; };
+		663E52A722C22CE40050323F /* TagViewStyle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TagViewStyle.plist; sourceTree = "<group>"; };
+		663E52A822C22CE40050323F /* TagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
+		663E52AA22C22CE40050323F /* TagBuilderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagBuilderView.xib; sourceTree = "<group>"; };
+		663E52AB22C22CE40050323F /* MarkedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkedImageView.h; sourceTree = "<group>"; };
+		663E52AC22C22CE40050323F /* TagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
+		663E52AD22C22CE40050323F /* TagBuilderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagBuilderView.h; sourceTree = "<group>"; };
+		663E52AE22C22CE40050323F /* MarkedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkedImageView.m; sourceTree = "<group>"; };
+		663E52AF22C22CE40050323F /* TagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		663E52B022C22CE40050323F /* TagBuilderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagBuilderView.m; sourceTree = "<group>"; };
+		663E52B122C22CE40050323F /* TaggedImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaggedImageViewController.m; sourceTree = "<group>"; };
+		663E52B322C22CE40050323F /* LumberjackDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LumberjackDemoViewController.h; sourceTree = "<group>"; };
+		663E52B422C22CE40050323F /* LumberjackDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LumberjackDemoViewController.m; sourceTree = "<group>"; };
+		663E52B822C22CE40050323F /* NSDictionary+WWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WWExtension.m"; sourceTree = "<group>"; };
+		663E52B922C22CE40050323F /* NSString+WWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WWExtension.m"; sourceTree = "<group>"; };
+		663E52BA22C22CE40050323F /* NSArray+WWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WWExtension.m"; sourceTree = "<group>"; };
+		663E52BB22C22CE40050323F /* NSDictionary+WWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WWExtension.h"; sourceTree = "<group>"; };
+		663E52BC22C22CE40050323F /* NSArray+WWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WWExtension.h"; sourceTree = "<group>"; };
+		663E52BD22C22CE40050323F /* NSString+WWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WWExtension.h"; sourceTree = "<group>"; };
+		663E52BE22C22CE40050323F /* WWCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWCore.h; sourceTree = "<group>"; };
+		663E52C122C22CE40050323F /* UIView+WWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WWView.m"; sourceTree = "<group>"; };
+		663E52C222C22CE40050323F /* UIView+WWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WWView.h"; sourceTree = "<group>"; };
+		663E52C322C22CE40050323F /* WWUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWUIKit.h; sourceTree = "<group>"; };
+		663E52C622C22CE40050323F /* WWBaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseAppDelegate.m; sourceTree = "<group>"; };
+		663E52C722C22CE40050323F /* WWBaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseAppDelegate.h; sourceTree = "<group>"; };
+		663E52C922C22CE40050323F /* WWRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WWRouter.plist; sourceTree = "<group>"; };
+		663E52CA22C22CE40050323F /* WWRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWRouter.h; sourceTree = "<group>"; };
+		663E52CB22C22CE40050323F /* WWRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWRouter.m; sourceTree = "<group>"; };
+		663E52CC22C22CE40050323F /* WWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWCommon.h; sourceTree = "<group>"; };
+		663E52CE22C22CE40050323F /* WWBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseNavigationController.h; sourceTree = "<group>"; };
+		663E52CF22C22CE40050323F /* WWBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseNavigationController.m; sourceTree = "<group>"; };
+		663E52D122C22CE40050323F /* WWBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseTabBarController.h; sourceTree = "<group>"; };
+		663E52D222C22CE40050323F /* WWBaseTabBarConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WWBaseTabBarConfiguration.plist; sourceTree = "<group>"; };
+		663E52D322C22CE40050323F /* WWBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseTabBarController.m; sourceTree = "<group>"; };
+		663E52D522C22CE40050323F /* WWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseViewController.m; sourceTree = "<group>"; };
+		663E52D622C22CE40050323F /* WWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
+		663E52D822C22CE40050323F /* WWPrivacyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWPrivacyHelper.h; sourceTree = "<group>"; };
+		663E52D922C22CE40050323F /* WWPrivacyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWPrivacyHelper.m; sourceTree = "<group>"; };
+		663E52DA22C22CE40050323F /* WWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWKit.h; sourceTree = "<group>"; };
+		663E52DC22C22CE40050323F /* UIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		663E52DD22C22CE40050323F /* GeneralConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralConfig.h; sourceTree = "<group>"; };
+		663E52DE22C22CE40050323F /* GeneralMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralMacro.h; sourceTree = "<group>"; };
+		66DDD56D22C2FF6E00764F00 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		66DDD56E22C2FF6E00764F00 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +180,10 @@
 		663E526422C22C4C0050323F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				66DDD56C22C2FF6E00764F00 /* FXBlurView */,
+				663E52A022C22CE40050323F /* Demoes */,
+				663E529822C22CE30050323F /* RootViewController */,
+				663E52B522C22CE40050323F /* WWKit */,
 				663E526522C22C4C0050323F /* AppDelegate.h */,
 				663E526622C22C4C0050323F /* AppDelegate.m */,
 				663E526822C22C4C0050323F /* ViewController.h */,
@@ -110,6 +193,7 @@
 				663E527022C22C4D0050323F /* LaunchScreen.storyboard */,
 				663E527322C22C4D0050323F /* Info.plist */,
 				663E527422C22C4D0050323F /* main.m */,
+				663E529722C22C5D0050323F /* PrefixHeader.pch */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -130,6 +214,223 @@
 				663E528B22C22C4D0050323F /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		663E529822C22CE30050323F /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				663E529922C22CE30050323F /* WWFoldableTableView */,
+				663E529F22C22CE30050323F /* RootTableViewController.h */,
+				663E529D22C22CE30050323F /* RootTableViewController.m */,
+				663E529E22C22CE30050323F /* menu.plist */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		663E529922C22CE30050323F /* WWFoldableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				663E529A22C22CE30050323F /* UITableView+WWExtension.h */,
+				663E529C22C22CE30050323F /* UITableView+WWExtension.m */,
+				663E529B22C22CE30050323F /* WWFoldable.h */,
+			);
+			path = WWFoldableTableView;
+			sourceTree = "<group>";
+		};
+		663E52A022C22CE40050323F /* Demoes */ = {
+			isa = PBXGroup;
+			children = (
+				663E52A122C22CE40050323F /* TaggedImage */,
+				663E52B222C22CE40050323F /* LumberjackDemo */,
+			);
+			path = Demoes;
+			sourceTree = "<group>";
+		};
+		663E52A122C22CE40050323F /* TaggedImage */ = {
+			isa = PBXGroup;
+			children = (
+				663E52A222C22CE40050323F /* TaggedImageViewController.h */,
+				663E52B122C22CE40050323F /* TaggedImageViewController.m */,
+				663E52A322C22CE40050323F /* Model */,
+				663E52A922C22CE40050323F /* View */,
+			);
+			path = TaggedImage;
+			sourceTree = "<group>";
+		};
+		663E52A322C22CE40050323F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				663E52A522C22CE40050323F /* TagModel.h */,
+				663E52A822C22CE40050323F /* TagModel.m */,
+				663E52A422C22CE40050323F /* TagViewModel.h */,
+				663E52A622C22CE40050323F /* TagViewModel.m */,
+				663E52A722C22CE40050323F /* TagViewStyle.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		663E52A922C22CE40050323F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				663E52AF22C22CE40050323F /* TagView.h */,
+				663E52AC22C22CE40050323F /* TagView.m */,
+				663E52AB22C22CE40050323F /* MarkedImageView.h */,
+				663E52AE22C22CE40050323F /* MarkedImageView.m */,
+				663E52AD22C22CE40050323F /* TagBuilderView.h */,
+				663E52B022C22CE40050323F /* TagBuilderView.m */,
+				663E52AA22C22CE40050323F /* TagBuilderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		663E52B222C22CE40050323F /* LumberjackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				663E52B322C22CE40050323F /* LumberjackDemoViewController.h */,
+				663E52B422C22CE40050323F /* LumberjackDemoViewController.m */,
+			);
+			path = LumberjackDemo;
+			sourceTree = "<group>";
+		};
+		663E52B522C22CE40050323F /* WWKit */ = {
+			isa = PBXGroup;
+			children = (
+				663E52B622C22CE40050323F /* WWCoreKit */,
+				663E52BF22C22CE40050323F /* WWUIKit */,
+				663E52C422C22CE40050323F /* WWCommon */,
+				663E52DA22C22CE40050323F /* WWKit.h */,
+				663E52DB22C22CE40050323F /* WWMacro */,
+			);
+			path = WWKit;
+			sourceTree = "<group>";
+		};
+		663E52B622C22CE40050323F /* WWCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				663E52B722C22CE40050323F /* WWFoundation */,
+				663E52BE22C22CE40050323F /* WWCore.h */,
+			);
+			path = WWCoreKit;
+			sourceTree = "<group>";
+		};
+		663E52B722C22CE40050323F /* WWFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				663E52BD22C22CE40050323F /* NSString+WWExtension.h */,
+				663E52B922C22CE40050323F /* NSString+WWExtension.m */,
+				663E52BC22C22CE40050323F /* NSArray+WWExtension.h */,
+				663E52BA22C22CE40050323F /* NSArray+WWExtension.m */,
+				663E52BB22C22CE40050323F /* NSDictionary+WWExtension.h */,
+				663E52B822C22CE40050323F /* NSDictionary+WWExtension.m */,
+			);
+			path = WWFoundation;
+			sourceTree = "<group>";
+		};
+		663E52BF22C22CE40050323F /* WWUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				663E52C022C22CE40050323F /* WWUICategory */,
+				663E52C322C22CE40050323F /* WWUIKit.h */,
+			);
+			path = WWUIKit;
+			sourceTree = "<group>";
+		};
+		663E52C022C22CE40050323F /* WWUICategory */ = {
+			isa = PBXGroup;
+			children = (
+				663E52C222C22CE40050323F /* UIView+WWView.h */,
+				663E52C122C22CE40050323F /* UIView+WWView.m */,
+			);
+			path = WWUICategory;
+			sourceTree = "<group>";
+		};
+		663E52C422C22CE40050323F /* WWCommon */ = {
+			isa = PBXGroup;
+			children = (
+				663E52C522C22CE40050323F /* WWBaseAppDelegate */,
+				663E52C822C22CE40050323F /* WWRouter */,
+				663E52CC22C22CE40050323F /* WWCommon.h */,
+				663E52CD22C22CE40050323F /* WWBaseNavigationController */,
+				663E52D022C22CE40050323F /* WWBaseTabBarController */,
+				663E52D422C22CE40050323F /* WWBaseViewController */,
+				663E52D722C22CE40050323F /* WWPrivacyHelper */,
+			);
+			path = WWCommon;
+			sourceTree = "<group>";
+		};
+		663E52C522C22CE40050323F /* WWBaseAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				663E52C722C22CE40050323F /* WWBaseAppDelegate.h */,
+				663E52C622C22CE40050323F /* WWBaseAppDelegate.m */,
+			);
+			path = WWBaseAppDelegate;
+			sourceTree = "<group>";
+		};
+		663E52C822C22CE40050323F /* WWRouter */ = {
+			isa = PBXGroup;
+			children = (
+				663E52C922C22CE40050323F /* WWRouter.plist */,
+				663E52CA22C22CE40050323F /* WWRouter.h */,
+				663E52CB22C22CE40050323F /* WWRouter.m */,
+			);
+			path = WWRouter;
+			sourceTree = "<group>";
+		};
+		663E52CD22C22CE40050323F /* WWBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				663E52CE22C22CE40050323F /* WWBaseNavigationController.h */,
+				663E52CF22C22CE40050323F /* WWBaseNavigationController.m */,
+			);
+			path = WWBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		663E52D022C22CE40050323F /* WWBaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				663E52D122C22CE40050323F /* WWBaseTabBarController.h */,
+				663E52D322C22CE40050323F /* WWBaseTabBarController.m */,
+				663E52D222C22CE40050323F /* WWBaseTabBarConfiguration.plist */,
+			);
+			path = WWBaseTabBarController;
+			sourceTree = "<group>";
+		};
+		663E52D422C22CE40050323F /* WWBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				663E52D522C22CE40050323F /* WWBaseViewController.m */,
+				663E52D622C22CE40050323F /* WWBaseViewController.h */,
+			);
+			path = WWBaseViewController;
+			sourceTree = "<group>";
+		};
+		663E52D722C22CE40050323F /* WWPrivacyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				663E52D822C22CE40050323F /* WWPrivacyHelper.h */,
+				663E52D922C22CE40050323F /* WWPrivacyHelper.m */,
+			);
+			path = WWPrivacyHelper;
+			sourceTree = "<group>";
+		};
+		663E52DB22C22CE40050323F /* WWMacro */ = {
+			isa = PBXGroup;
+			children = (
+				663E52DC22C22CE40050323F /* UIMacro.h */,
+				663E52DD22C22CE40050323F /* GeneralConfig.h */,
+				663E52DE22C22CE40050323F /* GeneralMacro.h */,
+			);
+			path = WWMacro;
+			sourceTree = "<group>";
+		};
+		66DDD56C22C2FF6E00764F00 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				66DDD56D22C2FF6E00764F00 /* FXBlurView.h */,
+				66DDD56E22C2FF6E00764F00 /* FXBlurView.m */,
+			);
+			path = FXBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +537,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				663E527222C22C4D0050323F /* LaunchScreen.storyboard in Resources */,
+				663E52E522C22CE40050323F /* TagBuilderView.xib in Resources */,
+				663E52E322C22CE40050323F /* TagViewStyle.plist in Resources */,
+				663E52F022C22CE40050323F /* WWRouter.plist in Resources */,
+				663E52E122C22CE40050323F /* menu.plist in Resources */,
 				663E526F22C22C4D0050323F /* Assets.xcassets in Resources */,
+				663E52F322C22CE40050323F /* WWBaseTabBarConfiguration.plist in Resources */,
 				663E526D22C22C4C0050323F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +568,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663E52E022C22CE40050323F /* RootTableViewController.m in Sources */,
+				663E52E422C22CE40050323F /* TagModel.m in Sources */,
+				663E52ED22C22CE40050323F /* NSArray+WWExtension.m in Sources */,
 				663E526A22C22C4C0050323F /* ViewController.m in Sources */,
+				66DDD56F22C2FF6E00764F00 /* FXBlurView.m in Sources */,
+				663E52E622C22CE40050323F /* TagView.m in Sources */,
 				663E527522C22C4D0050323F /* main.m in Sources */,
+				663E52EA22C22CE40050323F /* LumberjackDemoViewController.m in Sources */,
+				663E52EE22C22CE40050323F /* UIView+WWView.m in Sources */,
+				663E52E222C22CE40050323F /* TagViewModel.m in Sources */,
 				663E526722C22C4C0050323F /* AppDelegate.m in Sources */,
+				663E52F122C22CE40050323F /* WWRouter.m in Sources */,
+				663E52DF22C22CE40050323F /* UITableView+WWExtension.m in Sources */,
+				663E52EC22C22CE40050323F /* NSString+WWExtension.m in Sources */,
+				663E52E722C22CE40050323F /* MarkedImageView.m in Sources */,
+				663E52EB22C22CE40050323F /* NSDictionary+WWExtension.m in Sources */,
+				663E52EF22C22CE40050323F /* WWBaseAppDelegate.m in Sources */,
+				663E52F422C22CE40050323F /* WWBaseTabBarController.m in Sources */,
+				663E52F222C22CE40050323F /* WWBaseNavigationController.m in Sources */,
+				663E52F522C22CE40050323F /* WWBaseViewController.m in Sources */,
+				663E52E922C22CE40050323F /* TaggedImageViewController.m in Sources */,
+				663E52F622C22CE40050323F /* WWPrivacyHelper.m in Sources */,
+				663E52E822C22CE40050323F /* TagBuilderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +762,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VT644R5V5E;
+				GCC_PREFIX_HEADER = $SRCROOT/Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +781,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VT644R5V5E;
+				GCC_PREFIX_HEADER = $SRCROOT/Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

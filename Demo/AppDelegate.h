@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : WWBaseAppDelegate
 
-@property (strong, nonatomic) UIWindow *window;
+//<UIApplicationDelegate>
+//
+//@property (strong, nonatomic) UIWindow *window;
 
 
 @end
